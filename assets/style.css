@@ -59,15 +59,31 @@ body {
     font-weight: 700;
 }
 
-.header-menu ul li:hover {
-    color: #5c7000;
-    text-decoration: underline;
-    text-decoration-color: #5c7000;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
-    text-decoration-skip-ink: auto;
-    text-decoration-skip: objects;
+.header-menu ul li {
+    position: relative;
+    display: inline-block;
+
 }
+
+.header-menu ul li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #002370;
+    transition: width 0.9s ease;
+}
+
+.header-menu ul li:hover {
+    color: #002370;
+}
+
+.header-menu ul li:hover::after {
+    width: 100%;
+}
+
 
 /* Contact Button */
 .contact-button {
@@ -78,4 +94,9 @@ body {
     color: white;
     padding: 5px 10px;
     border-radius: 50px;
+}
+
+.contact-button:hover {
+    background-color: #e52b1f;
+    color: #fff;
 }
