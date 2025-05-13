@@ -4,12 +4,20 @@ $(document).ready(function () {
 
     // TYped Plugin
     var typed = new Typed('#typewriter', {
-        strings: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS', 'Bootstrap', 'jQuery', 'Wordpress'],
+        strings: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS', 'Bootstrap', 'jQuery'],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 1500,
         startDelay: 500,
         loop: true
+    });
+    var typed = new Typed('#typewriter2', {
+        strings: ['Customization', 'Speed Optimization', 'Ecommerce Management'],
+        typeSpeed: 20,
+        backSpeed: 30,
+        backDelay: 1500,
+        startDelay: 500,
+        loop: true,
     });
 
     $('.typewriter').each(function () {
