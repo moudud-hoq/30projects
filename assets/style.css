@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f0f0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* logo area */
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #414141;
+}
+
+.logo:hover {
+    color: #5c7000;
+}
+
+
+/* navbar area */
+.navbar {
+    max-width: 1300px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 30px;
+    gap: 20px;
+    background: #fff;
+    border-radius: 60px;
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+/* Contact Button */
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fc372d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
