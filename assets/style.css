@@ -19,6 +19,9 @@ body {
     background: #f0f0f0;
     max-width: 1440px;
     margin: 0 auto;
+    background-image: url('https://tinyurl.com/Moudud-Hoq');
+    background-size: cover;
+    background-position: center;
 }
 
 /* navbar area */
@@ -26,7 +29,7 @@ body {
     max-width: 1300px;
 }
 
-.navbar-wrapper {
+.navbar-wrapper {   
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -106,8 +109,23 @@ body {
 }
 
 /* Hero Area */
-.hero{
-    max-width: 1200px;
+.hero {
+    height: 70vh;
+    max-width: 1300px;
     margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
 }
 
+.heroWrapper h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#typewriter, #typewriter2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #c4fa00;
+}

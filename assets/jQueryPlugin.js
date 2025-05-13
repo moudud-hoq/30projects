@@ -4,20 +4,37 @@ $(document).ready(function () {
 
     // TYped Plugin
     var typed = new Typed('#typewriter', {
-        strings: ['HTML', 'CSS', 'Javascript', 'Tailwind CSS', 'Bootstrap', 'jQuery'],
-        typeSpeed: 50,
-        backSpeed: 30,
-        backDelay: 1500,
-        startDelay: 500,
-        loop: true
+        strings: [
+            'HTML - The structure of the web.',
+            'CSS - Styling that brings designs to life.',
+            'JavaScript - The language of interactivity.',
+            'Tailwind CSS - Utility-first CSS framework.',
+            'Bootstrap - Responsive design made easy.',
+            'jQuery - Simplifying JavaScript tasks.'
+        ],
+        typeSpeed: 60,
+        backSpeed: 40,
+        backDelay: 1200,
+        startDelay: 800,
+        loop: true,
+        showCursor: true,
+        cursorChar: '..',
+        smartBackspace: true // Only backspace what doesn't match the previous string
     });
     var typed = new Typed('#typewriter2', {
-        strings: ['Customization', 'Speed Optimization', 'Ecommerce Management'],
-        typeSpeed: 20,
-        backSpeed: 30,
-        backDelay: 1500,
-        startDelay: 500,
+        strings: [
+            'Customization that fits your needs.',
+            'Speed Optimization for blazing-fast performance.',
+            'Website Management made effortless.'
+        ],
+        typeSpeed: 40,
+        backSpeed: 25,
+        backDelay: 2000,
+        startDelay: 1000,
         loop: true,
+        showCursor: true,
+        cursorChar: '|',
+        smartBackspace: true // Only backspace what doesn't match the previous string
     });
 
     $('.typewriter').each(function () {
