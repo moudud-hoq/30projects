@@ -47,9 +47,7 @@ body {
     color: #5c7000;
 }
 
-
-
-
+/* header menu */
 .header-menu ul {
     display: flex;
     list-style: none;
@@ -57,9 +55,18 @@ body {
 }
 
 .header-menu ul li a {
-    text-decoration: none;
     color: #000;
     font-weight: 700;
+}
+
+.header-menu ul li:hover {
+    color: #5c7000;
+    text-decoration: underline;
+    text-decoration-color: #5c7000;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    text-decoration-skip-ink: auto;
+    text-decoration-skip: objects;
 }
 
 /* Contact Button */
