@@ -29,7 +29,7 @@ body {
     max-width: 1300px;
 }
 
-.navbar-wrapper {   
+.navbar-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -128,4 +128,17 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: #c4fa00;
+}
+
+
+/* Cursor */
+.custom-cursor {
+    width: 12px;
+    height: 12px;
+    border: 10px solid #e20000;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    z-index: 9999;
 }
