@@ -100,3 +100,10 @@ body {
     background-color: #e52b1f;
     color: #fff;
 }
+
+/* Hero Area */
+.hero{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
