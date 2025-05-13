@@ -17,18 +17,6 @@ body {
     margin: 0 auto;
 }
 
-/* logo area */
-.logo {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #414141;
-}
-
-.logo:hover {
-    color: #5c7000;
-}
-
-
 /* navbar area */
 .navbar {
     max-width: 1300px;
@@ -47,6 +35,20 @@ body {
     border: 1px solid rgb(199, 199, 199);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
+/* logo area */
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #414141;
+}
+
+.logo:hover {
+    color: #5c7000;
+}
+
+
+
 
 .header-menu ul {
     display: flex;
